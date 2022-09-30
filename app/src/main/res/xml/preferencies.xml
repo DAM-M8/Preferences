@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="musica"
+        android:title="Reproduir música"
+        android:summary="Es reprodueix música de fons"/>
+    <ListPreference
+        android:key="nivell"
+        android:title="Nivell de dificultat"
+        android:summary="Escull el nivell de dificultat del joc"
+        android:entries="@array/dificultat"
+        android:entryValues="@array/dificultatValors"
+        android:defaultValue="1"/>
+    <EditTextPreference
+        android:key="rondes"
+        android:title="Rondes de la partida"
+        android:summary="Escull el nombre de rondes"
+        android:inputType="number"
+        android:defaultValue="3"/>
+</PreferenceScreen>

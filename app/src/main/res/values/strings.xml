@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ModificarPreferencies</string>
+    <string name="conf">Configuració de les preferències</string>
+    <string name="musica">Música</string>
+    <string name="nivell">Nivell</string>
+    <string name="rondes">Rondes</string>
+</resources>
